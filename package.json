@@ -1,0 +1,15 @@
+{
+    "name": "Landing page",
+    "description": "Form for getting more referrals on Traffic Monsoon.",
+    "version": "1.0.0",
+    "dependencies": {
+        "gulp": "3.9.1",
+        "gulp-sass": "2.3.1",
+        "gulp-concat": "2.6.0",
+        "gulp-watch": "4.3.6",
+        "gulp-plumber": "1.1.0",
+        "gulp-clean-css": "2.0.10",
+        "gulp-uglify": "1.5.3",
+        "autoprefixer": "6.3.6"
+    }
+}
