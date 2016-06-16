@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+body { 
+    background-color: #979797;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.page {
+    max-width: 640px;
+    margin: 0 auto 30px auto;
+}
+
+button {
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    margin: 40px auto 40px auto;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+body, button {
+    font-family: 'Jacques Francois', serif;
+}
+
+button {
+    font-size: 90%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.slider {
+    width: 940px;
+    margin: 0px auto 30px auto;
+    position: relative;
+    height: 430px;
+}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    }
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    }
+
+.slide:first-child {
+    display: block;
+}
+
+.slide-buttons {
+    text-align: center;
+}
+
+.slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;
+}
+
+.slide-btn.active, 
+.slide-btn:hover {
+    color: #ed8e6c;
+    cursor: pointer;
+}
